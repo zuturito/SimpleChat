@@ -26,21 +26,25 @@ This project is intended as a foundational example for AI Engineers who want to 
 ## 📦 Requirements
 
 - Python **3.9+**
+- OpenAI Python SDK
 
 ```python
 pip install openai
 ```
 
-- OpenAI Python SDK
+
 
 Set your OpenAI API key as an environment variable.
 
 LINUX/MAC
+```
 export OPENAI_API_KEY="your_api_key_here"
+```
 
 WINDOWS
+```
 setx OPENAI_API_KEY "your_api_key_here"
-
+```
 
 ---
 
